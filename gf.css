@@ -1,0 +1,167 @@
+body {
+    background-image: url(./AdobeStock_333580439.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон остается зафиксированным при прокрутке */
+    background-position: center; /* Центрирование изображения */
+    }
+
+    h1 {
+        color: darkgray;
+        }
+    
+    
+    p {
+        font-size: 18px;
+        }
+    
+    
+    .content {
+        text-align: center;
+        padding: 2rem;
+        }
+    
+    
+    h1, p {
+        margin: 10px;
+        }
+        
+    div {
+        padding: 5px;
+    }
+    div p {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    #main {
+        background-color: rgb(212, 75, 160);
+        width: fit-content;
+        text-align: center;
+    }
+    .highlight {
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .filtered-image {
+        width: 300px;
+        height: auto;
+        margin-top: 1rem;
+        transition: filter 0.5s, transform 0.5s;
+    }
+    
+    .filtered-image:hover {
+        filter: saturate(200%);
+        transform: scale(1.1);
+    }
+
+:root {
+    --blue : #12d2db;
+    --white: #fcf2fa;
+    --purple: #912a7eaa;
+    --purple-black: #230622dd;
+    --shadow: 0 5px 10px 5px rgba(0, 0, 0, .3);
+    --navColor: lineear-gradient(to right, rgba(178,47,147,.6)5%, rgba(35,6,34, .9) );
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    position: absolute;
+    background: var(--navColor);
+    box-shadow: var(--shadow);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: var(--white);
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 80px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-style: italic;
+    transition: .2s ease;
+    text-shadow: 3px 5px 20px #230622aa;
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+}
+nav ul li a{
+    color: var(--white);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 13px;
+    text-transform: lowercase;
+}
+a.active, a:hover{
+    background: var(--purple);
+    transition: .5s;
+}
+.checkbtn{
+    line-height: 80px;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    margin-right: 40px;
+    display: none;
+}
+.checkbtn i{
+    color: var(--white);
+    padding: 5px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.checkbtn i:hover{
+    background: var(--purple);
+}
+#check{
+    display: none;
+}
+
+
+
+
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container a {
+    display:contents;
+}
+
+.container a img { 
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(red, green, blue, alpha);
+    transition: all ease-in-out 0.9s;
+}
+
+.container a img:hover {
+    width: 75%;
+}
+
+.large-text {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+

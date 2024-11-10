@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+        <title>Моя Любимая Девушка</title>
+        <link rel="stylesheet" href="./gf.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .background-image {
+                background-image: url('https://images.wallpaperscraft.ru/image/single/gradient_raznotsvetnyj_abstraktsiia_204077_3840x2400.jpg');
+                background-size: cover;
+                color: rgb(0, 0, 0); /* Цвет текста, чтобы он был виден на фоне */
+                padding: 10px;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 550;
+            }
+            .zagolovok {
+                text-align: center;
+                font-size:40px ;
+                font-weight: 400;
+                font-family: fantasy;
+            }
+            .media-container { 
+                display: flex; 
+                justify-content: center; 
+                align-items: center; 
+            }
+            .media {
+                width: 30%; 
+                height: 300px; /* фиксированная высота для всех медиа */ 
+            } 
+            video, img { 
+                width: 100%; 
+                height: 200%; 
+                object-fit: cover; /* обеспечит заполнение контейнера без искажения */ 
+            }
+            .text{
+                display: flex; 
+                flex-direction: column;
+                justify-content: center; /* центрирование по горизонтали */ 
+                align-items: center;
+                height: 100vh; /* высота контейнера 100% от высоты окна браузера */ 
+                text-align: center;
+                font-size:30px ;
+                font-weight: 200;
+                font-family: fantasy;
+            }.song { 
+                margin-bottom: 30px; /* добавляет отступ между песнями */ 
+            } 
+            </style>
+        </style>
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"></label>
+            <label class="logo">M-D</label>
+            <ul>
+                <li><a href="gw_site.html#home">home</a></li>
+                <li><a href="gw_site.html#history">history</a></li>
+                <li><a href="gw_site.html#photo">photo</a></li>
+                <li><a href="gw_site.html#something" >end</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br><br>
+        <section id="home">
+            <p class="background-image">
+                Этот сайт был создан специально для моей девушки. 
+                С того момента, как она появилась в моей жизни, все преобразилось. 
+                Будто в моей жизни появился новый смысл. 
+                Этот смысл – сделать её самой счастливой. 
+                Каждый день я стремлюсь видеть её улыбку, ведь её счастье – это и есть мой смысл жизни.
+                Она изменила мою жизнь, привнесла в неё радость, любовь и новые цели. 
+                Каждый миг, проведённый с ней, бесценен. 
+                Я хочу, чтобы она знала, насколько она дорога для меня, и чтобы её улыбка никогда не исчезала.                
+            </p>
+        </section>
+        <div class="zagolovok">
+            Её Любимые песни
+        </div>
+        <div class="text">
+            <p>Мот - Апостроф</p>
+            <audio class="song" controls src="./Мот - Апостроф  (Чёрточка-ЕР 2013).mp3"></audio>
+            <p>Баста - Одна любовь</p>
+            <audio class="song" controls src="./Баста - Одна любовь (feat. Рем Дигга).mp3"></audio>
+            <p>Леонид Агутин - Я буду всегда с тобой</p>
+            <audio class="song" controls src="./Леонид_Агутин_Я_буду_всегда_с_тобой.mp3"></audio>
+            <p>LUCAVEROS - Обниму тебя</p>
+            <audio class="song" controls src="./LUCAVEROS - Обниму тебя.mp3"></audio>
+            <p>Amourski - Красками</p>
+            <audio class="song" controls src="./Amourski - Красками.mp3"></audio>
+        </div>
+        <div class="media-container"> 
+            <div class="media"> 
+                <video controls> 
+                    <source src="./IMG_7026.MOV" type="video/mp4"> Ваш браузер не поддерживает тег video. 
+                </video> 
+            </div> 
+            <div class="media"> 
+                <img src="https://sun9-17.userapi.com/impg/S4fxGoDXOFFYkf6fMXWNSWWVh0qg3TYqarkDgQ/OpUeX6L2Yys.jpg?size=745x1080&quality=95&sign=a50fbb9b7e285d24218de9f264456ad3&type=album" alt="Фото"> 
+            </div>
+            <div class="media"> 
+                <video controls> 
+                    <source src="./IMG_7027.MOV" type="video/mp4"> Ваш браузер не поддерживает тег video. 
+                </video> 
+            </div> 
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <section id="history">
+            <p class="zagolovok">Как все началось?</p>
+            <p class="background-image">
+            Наше знакомство произошло, когда я был в девятом классе, а она в восьмом. 
+            В то время мы хорошо общались и были друзьями, но в какой-то момент перестали общаться. 
+            Я часто вспоминал те времена и скучал по нашему общению, но никак не решался снова начать с ней контакт. 
+            Когда я уже был в одиннадцатом классе, я узнал, что нравлюсь ей. Я, конечно, догадывался об этом раньше, но не решался признаться в своих чувствах. Узнав об этом, я понял, что это мой шанс, и решил написать ей. Однако, пока я решался на этот шаг, она написала первой: «Привет, Диас, как дела?» Это было очень неожиданно.
+            <br>
+            После этого мы немного поговорили, и я предложил ей стать моей девушкой. 
+            Немного ожидания, много волнения — и вот, она согласилась. 
+            Я помню каждый момент того дня: какой это был день, сколько было времени, каждую испытанную эмоцию, своё поведение. 
+            Мы начали встречаться 28 сентября 2023 года. 
+            С тех пор прошло немало времени, больше года мы вместе. 
+            Трудностей было немало, но вместе мы их преодолевали. 
+            В будущем я сделаю ей предложение, мы создадим счастливую семью и будем жить долго и счастливо.
+            </p>
+        </section>
+    <br>
+        <section id="photo">
+            <font size="6">
+            <div style="text-align: center; font-size: 50px; font-family: fantasy;">
+                Фотографии Любимой
+            </div>
+            </font>
+            <div class="container">
+                <a href="">
+                    <img src="https://sun9-67.userapi.com/impg/_rWVHhrMVmCV7ImOsc8Hg0QLDpliTihEQsmaCA/BMpY6smOSQU.jpg?size=864x1080&quality=95&sign=b63423e2f770a1b0b6ecf7e4d5292555&type=album" alt="">
+                </a>
+                <a href="">
+                    <img src="https://sun9-80.userapi.com/impg/vW2ohwrUCyk_6fdW7N4JYdMjgVs7vCAxlttOEQ/GYC6Ih_efZw.jpg?size=864x1080&quality=95&sign=04f650f01f20cc3e4ef18233aee62176&type=album" alt="">
+                </a>
+                <a href="" >
+                    <img src="https://sun9-56.userapi.com/impg/2-cdCFYMxhbnJdXAWkEQ-qQhnBkX-o10Wp-gjQ/V-sinPD6D4U.jpg?size=864x1080&quality=95&sign=ccf57384668a75aadd9b5d3ebf434c66&type=album" alt="">
+                </a>
+                <a href=" " >
+                    <img src="https://sun9-46.userapi.com/impg/PGOn7O0tFoIdWaMzumLlCmZNFnZBeGwRMth1TA/_tT7Tr6yWpM.jpg?size=864x1080&quality=95&sign=dbaac5a823a47f156d5357acf2d6566c&type=album" alt="" >
+                </a>
+                <a href="" >
+                    <img src="https://sun9-34.userapi.com/impg/R25pgNEuksYieMgMAo_goz0MVVmwyN4aNIS-YQ/lBWFTeTTsRA.jpg?size=1030x1080&quality=95&sign=17bcdf4c22cae170520f13815863e337&type=album" alt="">
+                <a href="" >
+                    <img src="https://sun9-23.userapi.com/impg/DduBOFHY865w1Vc95TQbSj10J-by_Lb9CpO33Q/7BGWmaI7PNI.jpg?size=864x1080&quality=95&sign=7c97c63b43ee6c285e0686c45bc92958&type=album" alt="">
+                </a>
+                <a href="" >
+                    <img src="https://sun9-57.userapi.com/impg/ZmJZfkPBVhz2yJeahJAZOBN3qCdkEoAc2hv_VA/4TYMgjMEsro.jpg?size=1005x1080&quality=95&sign=50fbac5b05e50ba380260bf1f0e295f2&type=album" alt="">
+                </a>
+                <a href="" >
+                    <img src="https://sun9-53.userapi.com/impg/86Wr3Ftfj6WPpm88vkmuRLzEZl-w3602mhFmcA/0YDMREjQRKc.jpg?size=864x1080&quality=95&sign=42f0dacd2f69a0d8e37454b9551aa8e3&type=album" alt="">
+                </a>
+            </div>
+        </section>
+
+        <section id="something">
+
+        </section>
+
+    </body>
+</html>
